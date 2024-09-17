@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-width: min-content;
+width: 300px;
 height: min-content;
 background-color: white;
 border-radius: 12px;
