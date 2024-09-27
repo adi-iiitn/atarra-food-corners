@@ -72,3 +72,53 @@ box-shadow: 0 0 50px 18px rgb(7, 108, 117);
     margin-top: 10px;
 }
 
+
+.category{
+    display:inline-flex;
+    justify-content: space-evenly;
+    justify-items: end;
+    align-items: end;
+}
+
+
+.grocery{
+    width: 130px;
+height: min-content;
+background-color: white;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 0 30px 10px rgb(130, 228, 228);
+margin-right: 10px;
+justify-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+.grocery  :hover{
+    background-color: blue;
+}
+
+
+.food-drink{
+    width: 130px;
+height: min-content;
+background-color: yellow;
+border-radius: 12px;
+padding: 20px;
+box-shadow: 0 0 30px 10px aqua;
+justify-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+
+.grocery-text{
+    color: aqua;
+margin-right: 20px;
+}
+
+.food-text{
+    color: aqua;
+}
